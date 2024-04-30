@@ -37,7 +37,7 @@ const navbar = () => {
                 <div className="px-[39vw] py-10 border-b-2 hover:bg-[#facfcb]"><Link href="/" to="">Services</Link></div>
                 <div className="px-[39vw] py-10 border-b-2 hover:bg-[#facfcb]"><Link href="/" to="">Portfolio</Link></div>
                 <div className="px-[44vw] py-10 border-b-2 hover:bg-[#facfcb]"><Link href="/" to="">Blog</Link></div>
-                <button className=" mt-14 w-80 rounded-xl py-4 text-white bg-dark hover:scale-[1.04] transition-transform ease-in-out duration-150">Let's Talk</button>
+                <button className=" mt-14 w-80 rounded-xl py-4 text-white bg-dark hover:scale-[1.04] transition-transform ease-in-out duration-150">Let&apos;s Talk</button>
             </nav>
         </main>
     )

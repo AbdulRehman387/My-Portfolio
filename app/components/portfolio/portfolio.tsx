@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div className="bg-[#FFD4D0] h-[400px] flex flex-col items-center">
       <div className="text-center mt-[60px] w-[810px] h-[48px] tablet:w-auto tablet:px-12 mobile:w-auto mobile:px-5">
         <h2 className="font-bold text-4xl text-[#1F1F1F]">My Portfolio</h2>
-        <p className="font-normal text-lg mt-8 text-[#1F1F1F]">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together</p>
+        <p className="font-normal text-lg mt-8 text-[#1F1F1F]">Explore my design services, from user interface and experience to prototyping and testing. Let&apos;s craft exceptional digital experiences together.</p>
       </div>
     </div>
     <div className="flex justify-center relative bottom-24">

@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="bg-[#1F1F1F] h-auto flex flex-col items-center px-5 mobile:gap-y-20">
         <div className="text-center mt-[80px] w-[820px] h-[150px] tablet:w-auto mobile:w-auto">
           <h2 className="font-bold text-4xl text-white">About Me</h2>
-          <p className="font-normal text-lg mt-8 text-white w-auto tablet:text-base mobile:text-base">I'm Abdul Rehman, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+          <p className="font-normal text-lg mt-8 text-white w-auto tablet:text-base mobile:text-base">I&apos;m Abdul Rehman, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
         </div>
         <div className="flex justify-around w-[70%] mt-6 tablet:w-[100%] mobile:flex-col mobile:gap-y-5">
           <div>
