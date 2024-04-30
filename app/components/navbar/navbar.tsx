@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { Link } from 'react-scroll';
 
-const navbar = () => {
+const Navbar = () => {
     const [sidebar, setSidebar] = useState(false);
     let showSidebar = () => {
         setSidebar(true);
@@ -26,7 +26,7 @@ const navbar = () => {
                     <div className="hover:scale-y-[1.2] hover:-translate-y-[3px] transition-transform ease-in-out duration-150"><Link href="/" activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link></div>
                 </div>
                 <div className="flex justify-between items-center">
-                    <button className="mobile:hidden tablet:hidden text-base font-extrabold text-white bg-dark px-6 py-3 hover:scale-[1.04] transition-transform ease-in-out duration-150"><Link href="/" activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>Let's Talk</Link></button>
+                    <button className="mobile:hidden tablet:hidden text-base font-extrabold text-white bg-dark px-6 py-3 hover:scale-[1.04] transition-transform ease-in-out duration-150"><Link href="/" activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>Let&apos;s Talk</Link></button>
                     <button className="hover:scale-[1.2] transition-transform ease-in-out duration-150"><FaBars onClick={showSidebar} className="text-2xl hidden mobile:block tablet:block cursor-pointer" /></button>
                 </div>
             </nav>
@@ -43,4 +43,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar

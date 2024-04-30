@@ -11,7 +11,7 @@ const Testimonial = () => {
         <div className="h-[414px] flex flex-col items-center tablet:gap-y-10 mobile:gap-y-14">
           <div className="text-center mt-[80px] w-[810px] h-[48px] laptop:w-auto tablet:w-auto mobile:w-[90%]">
             <h2 className="font-bold text-4xl text-[#1F1F1F]">Testemonials</h2>
-            <p className="font-normal text-base mt-8 text-[#1F1F1F]">Abdul Rehman's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+            <p className="font-normal text-base mt-8 text-[#1F1F1F]">Abdul Rehman&apos;s designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
           </div>
           <div className="mt-32 flex mobile:w-auto">
             <img className="mobile:w-10 mobile:h-10 mobile:relative mobile:top-6 mobile:left-2" src="./Testimonial.png" alt="Testimonial" />
