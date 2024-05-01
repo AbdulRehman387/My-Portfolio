@@ -15,11 +15,11 @@ const Contact = () => {
   }
   return (
     <main id="contact" className="relative">
-      <section className="bg-[#FFD4D0] h-[715px] flex justify-around items-center laptop:px-14 mobile:px-10">
+      <section className="bg-[#FFD4D0] h-[715px] flex justify-around items-center laptop:px-14 mobile:px-8">
         <div className="w-[566px] h-[467px] flex flex-col gap-7 laptop:w-auto tablet:w-[70vw] mobile:w-auto tablet:justify-center mobile:-mt-20">
           <div>
             <h2 className="text-4xl font-bold text-[#1F1F1F]">Get in Touch</h2>
-            <p className="text-base font-normal text-[#1F1F1F] mt-5 laptop:w-[70%] tablet:w-[70%] mobile:h-20">Have a question or a project in mind? I&apos;d love to hear from you. Let&apos;s chat and make something amazing together.</p>
+            <p className="text-base font-normal text-[#1F1F1F] mt-5 laptop:w-[70%] tablet:w-[70%] mobile:h-20 mobile:w-[95%]">Have a question or a project in mind? I&apos;d love to hear from you. Let&apos;s chat and make something amazing together.</p>
           </div>
           <div>
             <button onClick={showForm} className="hidden tablet:block mobile:block text-base font-extrabold text-white bg-dark px-6 py-3 mt-5">Contact Me</button>
