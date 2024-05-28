@@ -7,4 +7,5 @@ export type cardType = {
 export type barType = {
     heading:string,
     text:string
+    link:string
 }
