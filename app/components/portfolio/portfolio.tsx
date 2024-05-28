@@ -15,22 +15,23 @@ const Portfolio = () => {
       </div>
       <div className="flex justify-center relative bottom-24 mobile:hidden">
         <div className="flex flex-wrap justify-center gap-20 w-[85%] tablet:w-[95%] tablet:gap-x-5 tablet:gap-y-16 mobile:gap-y-12">
-          <Card1 path="/Card1.png" heading="Educational Platform" text="Web Design / Usability Testing" />
-          <Card1 path="/Card2.png" heading="Travel App Design" text="UX Research / App Design" />
-          <Card1 path="/Card3.png" heading="Personal Page" text="Web Design" />
-          <Card1 path="/Card4.png" heading="Furniture Mobile App" text="App Design" />
-          <Card1 path="/Card5.png" heading="Coffee House Landing Page" text="UX Research / Web Design" />
-          <Card1 path="/Card6.png" heading="Home Services Page" text="Web Design / Marketing" />
+          <Card1 path="/ExploreSkills.png" heading="Educational Platform" text="Web Design" link="https://explore-skills-website.vercel.app/" />
+          <Card1 path="/TodoList.png" heading="Todo List App" text="Productivity Tool / Web Design" link="https://todo-list-app-ivory-three.vercel.app/" />
+          <Card1 path="/MyPortfolio.png" heading="Personal Portfolio" text="Web Design" link="/" />
+          <Card1 path="/Quiz.png" heading="Quiz App" text="Educational Tool" link="https://quiz-app-plum-three.vercel.app/" />
+          <Card1 path="/ExpenseTracker.png" heading="Expense Tracker App" text="Productivity Tool / Web Design" link="https://expense-tracker-app-theta-mauve.vercel.app/" />
+          <Card1 path="/Calculator.png" heading="Calculator App" text="Educational Tool" link="https://calculator-app-delta-sooty.vercel.app/" />
         </div>
       </div>
       <div className="relative bottom-24 hidden mobile:flex justify-center items-center embla" ref={emblaRef}>
         <div className="embla__container w-[90%]">
-        <Card2 path="/Card1.png" heading="Educational Platform" text="Web Design / Usability Testing" />
-        <Card2 path="/Card2.png" heading="Travel App Design" text="UX Research / App Design" />
-        <Card2 path="/Card3.png" heading="Personal Page" text="Web Design" />
-        <Card2 path="/Card4.png" heading="Furniture Mobile App" text="App Design" />
-        <Card2 path="/Card5.png" heading="Coffee House Landing Page" text="UX Research / Web Design" />
-        <Card2 path="/Card6.png" heading="Home Services Page" text="Web Design / Marketing" />
+          <Card2 path="/ExploreSkills.png" heading="Educational Platform" text="Web Design" link="https://explore-skills-website.vercel.app/" />
+          <Card2 path="/TodoList.png" heading="Todo List App" text="Productivity Tool / Web Design" link="https://todo-list-app-ivory-three.vercel.app/" />
+          <Card2 path="/MyPortfolio.png" heading="Personal Portfolio" text="Web Design" link="/" />
+          <Card2 path="/Quiz.png" heading="Quiz App" text="Educational Tool" link="https://quiz-app-plum-three.vercel.app/" />
+          <Card2 path="/ExpenseTracker.png" heading="Expense Tracker App" text="Productivity Tool / Web Design" link="https://expense-tracker-app-theta-mauve.vercel.app/" />
+          <Card2 path="/Calculator.png" heading="Calculator App" text="Educational Tool" link="https://calculator-app-delta-sooty.vercel.app/" />
+
         </div>
       </div>
     </section>

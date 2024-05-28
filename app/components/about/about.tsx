@@ -7,15 +7,15 @@ const About = () => {
         </div>
         <div className="flex justify-around w-[70%] mt-6 tablet:w-[100%] mobile:flex-col mobile:gap-y-5">
           <div>
-            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">502</p>
+            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">11</p>
             <p className="text-center font-bold text-lg text-white">Projects Done</p>
           </div>
           <div>
-            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">10+</p>
+            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">1+</p>
             <p className="text-center font-bold text-lg text-white">Years of Experience</p>
           </div>
           <div className="mb-16">
-            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">273+</p>
+            <p className="text-[64px] font-bold text-center text-[#FFD4D0]">0</p>
             <p className="text-center font-bold text-lg text-white">Clients Served</p>
           </div>
         </div>
